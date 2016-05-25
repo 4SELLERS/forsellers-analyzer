@@ -8,7 +8,7 @@
 
     <groupId>de.forsellers.elastic</groupId>
     <artifactId>forsellers-analyzer</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <inceptionYear>2016</inceptionYear>
     <url>http://www.4sellers.de</url>
@@ -20,6 +20,12 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+    <scm>
+        <connection>scm:git:git@github.com:4SELLERS/forsellers-analyzer.git</connection>
+        <developerConnection>scm:git:git@github.com:4SELLERS/forsellers-analyzer.git
+        </developerConnection>
+        <url>https://github.com/4SELLERS/forsellers-analyzer</url>
+    </scm>
 
     <properties>
         <elasticsearch.basedir>${project.basedir}/../..</elasticsearch.basedir>
